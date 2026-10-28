@@ -23,7 +23,7 @@ function App(){
           <Route path ="/kategori/tambah" element = {<TambahKategori/>}/>
           <Route path="/kategori/edit/:id" element={<EditKategori/>}/>
           <Route path="/movies" element={<Movies/>}/>
-          <Route path="/movie/edit/:id" element={<EditMovies/>}/>
+          <Route path="/movies/edit/:id" element={<EditMovies/>}/>
           <Route path="/movies/tambah" element={<TambahMovies/>}/>
           </Routes>
       </main>

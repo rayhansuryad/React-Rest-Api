@@ -49,7 +49,8 @@ function EditMovies(){
         try {
             const payload = {
         title: form.title,
-        year: parseInt(form.year)
+        year: parseInt(form.year),
+        categoryId:parseInt(form.categoryId)
       };
       await updateMovies(id, payload);
             alert('Movie berhasil di update');

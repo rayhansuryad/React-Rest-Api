@@ -110,7 +110,7 @@ function TambahMovies() {
                       <option value="">-- Pilih Kategori --</option>
                       {categories.map((category) => (
                         <option key={category.id} value={category.id}>
-                          {category.name} {/* Menampilkan nama kategori, tetapi menyimpan ID-nya */}
+                          {category.name} 
                         </option>
                       ))}
                     </select>

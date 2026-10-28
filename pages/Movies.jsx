@@ -48,7 +48,7 @@ function Movies() {
 
   return(
     <section>
-        <Link to="/movie/tambah"
+        <Link to="/movies/tambah"
         className="btn btn-primary">
             Tambah Movie
         </Link>
@@ -81,7 +81,7 @@ function Movies() {
                                 <i className="bi bi-eye"></i>
                               </Link>
                               <Link
-                                to={`/movie/edit/${item.id}`}
+                                to={`/movies/edit/${item.id}`}
                                 className="btn btn-sm btn-outline-warning"
                                 title="Edit"
                               >
