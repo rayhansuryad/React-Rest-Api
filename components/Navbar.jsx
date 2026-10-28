@@ -28,6 +28,12 @@ function Navbar() {
             <NavLink className="nav-link" to="/kategori/tambah">
                 Tambah Categories
             </NavLink>
+            <NavLink className="nav-link" to="/movies">
+                Data Movies
+            </NavLink>
+            <NavLink className="nav-link" to="/movies/tambah">
+                Tambah Movies
+            </NavLink>
           </div>
         </div>
       </div>
