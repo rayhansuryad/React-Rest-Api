@@ -1,7 +1,6 @@
 import axios from "axios";
 
-
-const API_URL = 'http://103.253.212.215:3000/api/movies'
+const API_URL = 'https://rayhansd-pweb05.cloud/api/movies';
 
 export const getAllMovies = ()=>{
     return axios.get(API_URL);
